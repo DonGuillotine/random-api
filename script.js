@@ -9,6 +9,8 @@ async function getUser(){
     // Parse it to JSON format
     var data = await response.json();
     console.log(data.results);
+    
+    // Can be better written with newer versions of Javascript
 
     // RETRIEVE DATA FROM JSON
     var user = data.results[0];
