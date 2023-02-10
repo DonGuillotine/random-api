@@ -58,5 +58,5 @@ async function getUser(){
     favicon.setAttribute("href", image_icon);
 }
 
-// Invoking the getUser() Function
+// Invoking the getUser Function
 getUser();
