@@ -57,4 +57,6 @@ async function getUser(){
     var favicon = document.getElementById("favicon");
     favicon.setAttribute("href", image_icon);
 }
+
+// Invoking the getUser() Function
 getUser();
